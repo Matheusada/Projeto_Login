@@ -75,3 +75,9 @@ Grandes telas: Acima de 1200px;
     div#formulario > p{
         font-size: 0.8em;
     }
+
+    form > input[type=submit]{
+        display: block;
+        font-size: 1em;
+        width: 100%;/*lembrando que não pode 100%vw, pois é só em relação a div (contâiner) */
+    } 
