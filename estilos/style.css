@@ -48,6 +48,9 @@ Grandes telas: Acima de 1200px;
         /*Acima pra ficar na tela de celular*/
         border-radius: 20px;
         box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.466);
+        transition: width .3s, height .3s; /*podemos colocar 0.3s*/
+        transition-timing-function: ease;
+        /* o ease dá uma suavizada na animação, ela não vai acelarar e desacelerar na mesma velocidade*/
         
 
     }
