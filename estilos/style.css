@@ -80,9 +80,10 @@ Grandes telas: Acima de 1200px;
 
         background-color: #5972a8;
         width: 100%; /*não tinha necessidade, pois já é uma div e ocupa 100%! */
+        border: 2px solid #5972a8;
         display: block; /*também não há necessidade, pois a DIV já é um block */
         height: 40px;
-        border-radius: 5px;
+        border-radius: 8px;
         margin: 5px 9px 5px 0px;
         
     }
@@ -91,6 +92,25 @@ Grandes telas: Acima de 1200px;
         display: none;
 
     }
+    div.campo > span {
+        color: white;
+        font-size: 2em;
+        width: 40px;
+        padding: 5px;
+    }
+
+    div.campo > input {
+        background-color:#71319c;
+        font-size: 1em;
+        width: calc(100% -60px);
+        height: 100%;
+        transform: translateY(-12.5px);
+        border: 0px;
+        border-radius: 8px;
+        padding: 4px;
+
+    }
+
     form > input[type=submit]{
         display: block;
         font-size: 1em;
