@@ -94,6 +94,7 @@ Grandes telas: Acima de 1200px;
     }
     div.campo > span {
         color: white;
+        background-color: black;
         font-size: 2em;
         width: 40px;
         padding: 5px;
@@ -102,12 +103,12 @@ Grandes telas: Acima de 1200px;
     div.campo > input {
         background-color:#71319c;
         font-size: 1em;
-        width: calc(100% -60px);
+        width: calc(100% - 40px);
         height: 100%;
         transform: translateY(-12.5px);
         border: 0px;
         border-radius: 8px;
-        padding: 4px;
+        padding: 5px;
 
     }
 
