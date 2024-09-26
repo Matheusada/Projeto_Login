@@ -40,7 +40,6 @@ section#login {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
     /*para fazer ficar no meio da tela são os comandos acima: */
     overflow: hidden;
     /*Tudo que tiver fora da borda vai ficar escondido */
@@ -50,11 +49,12 @@ section#login {
     /*Acima pra ficar na tela de celular*/
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.466);
+
     transition: width .3s, height .3s;
     /*podemos colocar 0.3s*/
     transition-timing-function: ease;
     /* o ease dá uma suavizada na animação, ela não vai acelarar e desacelerar na mesma velocidade*/
-
+    transform: translate(-50%, -50%);
 
 }
 
@@ -114,10 +114,10 @@ div.campo>input {
     font-size: 1em;
     width: calc(100% - 44.5px);
     height: 100%;
-    transform: translateY(-12px);
     border: 0px;
     border-radius: 8px;
     padding: 5px;
+    transform: translateY(-12px);
 
 }
 

@@ -11,56 +11,65 @@ Grandes telas: Acima de 1200px;
 
 /*Tela para Tablet */
 @media screen and (min-width:768px) and (max-width: 992px) {
-    body{
-        background-image: linear-gradient(#2c4e82,#49a09d);
+    body {
+        background-image: linear-gradient(#2c4e82, #49a09d);
         background-repeat: no-repeat;
     }
-    section#login {
-        width: 80vw ;
-        text-align: justify;
-     }
 
-     section#login > div#imagem{
+    section#login {
+        width: 80vw;
+        text-align: justify;
+        height: 280px;
+    }
+
+    section#login>div#imagem {
         float: left;
         width: 30%;
         height: 100%;
 
-     }
-     section#login > div#formulario{
+    }
+
+    section#login>div#formulario {
         float: right;
-        width:70%;
-     }
-    
+        width: 70%;
+    }
+
 }
 
 @media screen and (min-width:992px) {
 
-    body{
-        background-image: linear-gradient(#2c4e82,#49a09d);
+    /*Configurações para Desktop*/
+    body {
+        background-image: linear-gradient(#2c4e82, #49a09d);
         background-repeat: no-repeat;
     }
-    section#login{
+
+    section#login {
         width: 950px;
+        height: 350px;
     }
+
     /*As configurações abaixo resolveríamos MELHOR com FLEXBOX*/
-    section#login > div#imagem{
+    section#login>div#imagem {
         float: right;
         width: 50%;
         height: 100%;
 
     }
 
-    section#login > div#formulario{
+    section#login>div#formulario {
         float: left;
         width: 50%;
     }
-    div#formulario > h1{
+
+    div#formulario>h1 {
         font-size: 2em;
 
     }
 
-    div#formulario > p {
+    div#formulario>p {
         font-size: 1.2em;
+        margin: 20px 0px
     }
 
 }
