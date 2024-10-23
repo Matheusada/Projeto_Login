@@ -31,7 +31,7 @@
   <li>Design responsivo, adaptável para dispositivos móveis e desktops.</li>
   <li>Estilização com CSS3, incluindo efeitos de hover e foco nos campos de entrada.</li>
 </ul>
-
+https://github.com/Matheusada/Projeto_Login/blob/main/README.md
 <h2>🛠️ Tecnologias Utilizadas</h2>
 
 <ul>
@@ -41,12 +41,7 @@
 
 <h2>📦 Como Visualizar o Projeto</h2>
 
-<ol>
-  <li>Clone este repositório para sua máquina local: <br>
-    <code>git clone https://github.com/seu-usuario/interface-login.git</code>
-  </li>
   <li>Navegue até a pasta do projeto e abra o arquivo <code>index.html</code> no navegador.</li>
-</ol>
 
 <h2>🖥️ Exemplo de Uso</h2>
 
